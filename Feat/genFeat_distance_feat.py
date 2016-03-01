@@ -123,8 +123,8 @@ def extract_basic_distance_feat(df):
     ## unigram
     print("generate unigram")
     df["query_unigram"] = list(df.apply(lambda x: preprocess_data(x["query"]), axis=1))
-    df["title_unigram"] = list(df.apply(lambda x: preprocess_data(x["title"]), axis=1))
-    df["description_unigram"] = list(df.apply(lambda x: preprocess_data(x["description"]), axis=1))
+    df["title_unigram"] = list(df.apply(lambda x: preprocess_data(x["product_title"]), axis=1))
+    df["description_unigram"] = list(df.apply(lambda x: preprocess_data(x["product_description"]), axis=1))
     ## bigram
     print( "generate bigram")
     join_str = "_"
@@ -283,24 +283,24 @@ if __name__ == "__main__":
     print("Done.")
 
 
-#    print("For training and testing...")
-#    path = "%s/All" % config.feat_folder
+    print("For training and testing...")
+    path = "%s/All" % config.feat_folder
     ## use full version for X_train
-#    extract_basic_distance_feat(dfTest)
-#    for feat_name in feat_names:
-#        X_train = dfTrain[feat_name].values
-#        X_test = dfTest[feat_name].values
-#        with open("%s/train.%s.feat.pkl" % (path, feat_name), "wb") as f:
-#            cPickle.dump(X_train, f, -1)
-#        with open("%s/test.%s.feat.pkl" % (path, feat_name), "wb") as f:
-#            cPickle.dump(X_test, f, -1)
+    extract_basic_distance_feat(dfTest)
+    for feat_name in feat_names:
+        X_train = dfTrain[feat_name].values
+        X_test = dfTest[feat_name].values
+        with open("%s/train.%s.feat.pkl" % (path, feat_name), "wb") as f:
+            cPickle.dump(X_train, f, -1)
+        with open("%s/test.%s.feat.pkl" % (path, feat_name), "wb") as f:
+            cPickle.dump(X_test, f, -1)
     ## extract statistical distance features
-#    if stats_feat_flag:
-#        feat_names = extract_statistical_distance_feat(path, dfTrain, dfTest, "test", feat_names)
+    if stats_feat_flag:
+        feat_names = extract_statistical_distance_feat(path, dfTrain, dfTest, "test", feat_names)
 
     ## save feat names
-#    print("Feature names are stored in %s" % feat_name_file)
+    print("Feature names are stored in %s" % feat_name_file)
     ## dump feat name
-#    dump_feat_name(feat_names, feat_name_file)
+    dump_feat_name(feat_names, feat_name_file)
             
 #    print("All Done.")

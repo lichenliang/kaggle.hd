@@ -7,8 +7,8 @@
     <file path="$USER_HOME$/PycharmProjects/hd/preprocess.py" changelist="cd306966-8921-419f-9af1-6e9f9697d4f5" time="1456769617535" ignored="false" />
     <file path="/nlp_utils.py" changelist="cd306966-8921-419f-9af1-6e9f9697d4f5" time="1456772742586" ignored="false" />
     <file path="/fragment.py" changelist="cd306966-8921-419f-9af1-6e9f9697d4f5" time="1456783363397" ignored="false" />
-    <file path="/preprocess.py" changelist="cd306966-8921-419f-9af1-6e9f9697d4f5" time="1456787840797" ignored="false" />
-    <file path="/genFeat_distance_feat.py" changelist="cd306966-8921-419f-9af1-6e9f9697d4f5" time="1456799197551" ignored="false" />
+    <file path="/preprocess.py" changelist="cd306966-8921-419f-9af1-6e9f9697d4f5" time="1456871637698" ignored="false" />
+    <file path="/genFeat_distance_feat.py" changelist="cd306966-8921-419f-9af1-6e9f9697d4f5" time="1456872726538" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,10 +28,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="genFeat_distance_feat.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="genFeat_distance_feat.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Feat/genFeat_distance_feat.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="294" column="37" selection-start="12773" selection-end="12773" vertical-scroll-proportion="0.0">
+            <state line="292" column="73" selection-start="12709" selection-end="12709" vertical-scroll-proportion="2.4351852">
               <folding />
             </state>
           </provider>
@@ -46,19 +46,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="run_all.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Feat/run_all.py">
+      <file leaf-file-name="model_library_config.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Model/model_library_config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="0" selection-start="992" selection-end="992" vertical-scroll-proportion="0.5421903">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="genFeat_counting_feat.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Feat/genFeat_counting_feat.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="32" selection-start="1735" selection-end="1735" vertical-scroll-proportion="0.0">
+            <state line="472" column="22" selection-start="16344" selection-end="16353" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -67,25 +58,34 @@
       <file leaf-file-name="combine_feat_[LSA_and_stats_feat_Jun09]_[Low].py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Feat/combine_feat_[LSA_and_stats_feat_Jun09]_[Low].py">
           <provider selected="true" editor-type-id="text-editor">
+            <state line="387" column="27" selection-start="30157" selection-end="30167" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gen_info.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Feat/gen_info.py">
+          <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="genFeat_id_feat.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Feat/genFeat_id_feat.py">
+      <file leaf-file-name="generate_best_single_model.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Model/generate_best_single_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="53" selection-start="1467" selection-end="1467" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nlp_utils.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Feat/nlp_utils.py">
+      <file leaf-file-name="combine_feat_[svd100_and_bow_Jun27]_[High].py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Feat/combine_feat_[svd100_and_bow_Jun27]_[High].py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="14" selection-start="1633" selection-end="1633" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -94,14 +94,16 @@
       <file leaf-file-name="preprocess.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Feat/preprocess.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="0" selection-start="964" selection-end="964" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="98" column="42" selection-start="4018" selection-end="4018" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#126#136#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ngram.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Feat/ngram.py">
+      <file leaf-file-name="combine_feat.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Feat/combine_feat.py">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
@@ -129,15 +131,15 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/Feat/nlp_utils.py" />
+        <option value="$PROJECT_DIR$/Feat/genFeat_counting_feat.py" />
         <option value="$PROJECT_DIR$/Feat/preprocess.py" />
         <option value="$PROJECT_DIR$/Feat/genFeat_distance_feat.py" />
-        <option value="$PROJECT_DIR$/Feat/genFeat_counting_feat.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="14" />
-    <option name="y" value="447" />
+    <option name="x" value="20" />
+    <option name="y" value="22" />
     <option name="width" value="1346" />
     <option name="height" value="728" />
   </component>
@@ -167,7 +169,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -196,12 +197,27 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Feat" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -209,7 +225,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonSdkConfigurable" />
-    <property name="last_opened_file_path" value="/anaconda/bin/python2.7" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Kaggle_CrowdFlower/Code/Feat/preprocess.py" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
@@ -221,7 +237,7 @@
       <PyConsoleSettings />
     </option>
   </component>
-  <component name="RunManager" selected="Python.genFeat_counting_feat">
+  <component name="RunManager" selected="Python.genFeat_distance_feat">
     <configuration default="false" name="preprocess" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -370,9 +386,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.genFeat_counting_feat" />
-        <item index="1" class="java.lang.String" itemvalue="Python.genFeat_distance_feat" />
-        <item index="2" class="java.lang.String" itemvalue="Python.preprocess" />
+        <item index="0" class="java.lang.String" itemvalue="Python.genFeat_distance_feat" />
+        <item index="1" class="java.lang.String" itemvalue="Python.preprocess" />
+        <item index="2" class="java.lang.String" itemvalue="Python.genFeat_counting_feat" />
         <item index="3" class="java.lang.String" itemvalue="Python.genFeat_id_feat" />
         <item index="4" class="java.lang.String" itemvalue="Python.nlp_utils" />
       </list>
@@ -425,18 +441,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="14" y="447" width="1346" height="728" extended-state="0" />
+    <frame x="20" y="22" width="1346" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27076924" sideWeight="0.6743421" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28" sideWeight="0.6759868" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39967105" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32543445" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32401314" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -510,47 +526,22 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Model/generate_ensemble_submission.py">
+    <entry file="file://$PROJECT_DIR$/Feat/genFeat_counting_feat.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="26" selection-start="1529" selection-end="1529" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Feat/combine_feat.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="3" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model/ml_metrics.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="174" column="16" selection-start="6216" selection-end="6216" vertical-scroll-proportion="-2.1092436" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model/generate_model_library.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-3.4605262" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model/ensemble_selection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="19" selection-start="3502" selection-end="3502" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model/model_library_config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model/train_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="0" selection-start="1873" selection-end="1873" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="68" column="32" selection-start="1735" selection-end="1735" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Feat/genFeat_id_feat.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="53" selection-start="1467" selection-end="1467" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="27" column="13" selection-start="456" selection-end="456" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Feat/genFeat_basic_tfidf_feat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="48" selection-start="727" selection-end="736" vertical-scroll-proportion="-6.923077">
+          <folding>
+            <element signature="e#1424#1434#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -561,7 +552,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Feat/ngram.py">
+    <entry file="file://$PROJECT_DIR$/../../Kaggle_CrowdFlower/Code/Feat/preprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Feat/run_all.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="16" selection-start="689" selection-end="716" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Feat/gen_info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Feat/combine_feat_[svd100_and_bow_Jun27]_[High].py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/generate_best_single_model.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
@@ -575,37 +590,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Feat/preprocess.py">
+    <entry file="file://$PROJECT_DIR$/Model/train_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="0" selection-start="964" selection-end="964" vertical-scroll-proportion="0.0">
+        <state line="74" column="0" selection-start="1873" selection-end="1873" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Feat/genFeat_distance_feat.py">
+    <entry file="file://$PROJECT_DIR$/Model/model_library_config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="294" column="37" selection-start="12773" selection-end="12773" vertical-scroll-proportion="0.0">
+        <state line="472" column="22" selection-start="16344" selection-end="16353" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Feat/combine_feat_[LSA_and_stats_feat_Jun09]_[Low].py">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="387" column="27" selection-start="30157" selection-end="30167" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Feat/combine_feat.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Feat/genFeat_counting_feat.py">
+    <entry file="file://$PROJECT_DIR$/Feat/preprocess.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="32" selection-start="1735" selection-end="1735" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="98" column="42" selection-start="4018" selection-end="4018" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#126#136#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Feat/run_all.py">
+    <entry file="file://$PROJECT_DIR$/Feat/genFeat_distance_feat.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="0" selection-start="992" selection-end="992" vertical-scroll-proportion="0.5421903">
+        <state line="292" column="73" selection-start="12709" selection-end="12709" vertical-scroll-proportion="2.4351852">
           <folding />
         </state>
       </provider>
