@@ -121,25 +121,25 @@ def preprocess_data(line, token_pattern=token_pattern,
 #####################################
 def extract_basic_distance_feat(df):
     ## unigram
-    print "generate unigram"
+    print("generate unigram")
     df["query_unigram"] = list(df.apply(lambda x: preprocess_data(x["query"]), axis=1))
     df["title_unigram"] = list(df.apply(lambda x: preprocess_data(x["title"]), axis=1))
     df["description_unigram"] = list(df.apply(lambda x: preprocess_data(x["description"]), axis=1))
     ## bigram
-    print "generate bigram"
+    print( "generate bigram")
     join_str = "_"
     df["query_bigram"] = list(df.apply(lambda x: ngram.getBigram(x["query_unigram"], join_str), axis=1))
     df["title_bigram"] = list(df.apply(lambda x: ngram.getBigram(x["title_unigram"], join_str), axis=1))
     df["description_bigram"] = list(df.apply(lambda x: ngram.getBigram(x["description_unigram"], join_str), axis=1))
     ## trigram
-    print "generate trigram"
+    print( "generate trigram")
     join_str = "_"
     df["query_trigram"] = list(df.apply(lambda x: ngram.getTrigram(x["query_unigram"], join_str), axis=1))
     df["title_trigram"] = list(df.apply(lambda x: ngram.getTrigram(x["title_unigram"], join_str), axis=1))
     df["description_trigram"] = list(df.apply(lambda x: ngram.getTrigram(x["description_unigram"], join_str), axis=1))
 
     ## jaccard coef/dice dist of n-gram
-    print "generate jaccard coef and dice dist for n-gram"
+    print( "generate jaccard coef and dice dist for n-gram")
     dists = ["jaccard_coef", "dice_dist"]
     grams = ["unigram", "bigram", "trigram"]
     feat_names = ["query", "title", "description"]

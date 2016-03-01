@@ -74,8 +74,8 @@ def extract_feat(df):
     ## unigram
     print "generate unigram"
     df["query_unigram"] = list(df.apply(lambda x: preprocess_data(x["query"]), axis=1))
-    df["title_unigram"] = list(df.apply(lambda x: preprocess_data(x["product_title"]), axis=1))
-    df["description_unigram"] = list(df.apply(lambda x: preprocess_data(x["product_description"]), axis=1))
+    df["title_unigram"] = list(df.apply(lambda x: preprocess_data(x["title"]), axis=1))
+    df["description_unigram"] = list(df.apply(lambda x: preprocess_data(x["description"]), axis=1))
     ## bigram
     print "generate bigram"
     join_str = "_"
