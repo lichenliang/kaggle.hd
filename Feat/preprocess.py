@@ -26,7 +26,7 @@ from param_config import config
 ## Load Data ##
 ###############
 print("Load data...")
-df_train = pd.read_csv('../../Data/train.csv', encoding="ISO-8859-1")
+df_train = pd.read_csv('../../Data/train.csv')
 df_pro_desc = pd.read_csv('../../Data/product_descriptions.csv')
 df_attr = pd.read_csv('../../Data/attributes.csv')
 df_brand = df_attr[df_attr.name == "MFG Brand Name"][["product_uid", "value"]].rename(columns={"value": "brand"})
